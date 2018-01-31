@@ -1,22 +1,29 @@
 import React, { Component } from 'react';
 import { StyleSheet, css } from 'aphrodite';
 
-
-
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <div className={css(styles.wrapper)}>
+        <button className={css(styles.button)}>Click me!</button>
+          </div>
       </div>
     );
   }
 }
+
+const styles = StyleSheet.create({
+    button: {
+        padding: '0.5em',
+        backgroundColor: 'green',
+        fontSize: '2em',
+        ':hover': { backgroundColor: 'red' },
+    },
+    wrapper: {
+        textAlign: 'center',
+        padding: '4em'
+    }
+});
 
 export default App;
