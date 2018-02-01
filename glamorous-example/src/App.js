@@ -7,7 +7,9 @@ const Wrapper = glamorous.section({
 });
 
 const Button = glamorous.button({
+    padding: '0.5em',
     backgroundColor: 'green',
+    fontSize: '2em',
     '&:hover': {
         backgroundColor: 'red'
     },
