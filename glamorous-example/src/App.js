@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className="App">
           <Wrapper>
-          <Button>Click me!</Button>
+              <Button>Click me!</Button>
           </Wrapper>
       </div>
     );

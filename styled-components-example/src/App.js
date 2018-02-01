@@ -18,10 +18,10 @@ const Button = styled.button`
 class App extends Component {
     render() {
         return (
-            <div className="App">
+        <div className="App">
             <Wrapper>
-            <Button>Click me!</Button>
-        </Wrapper>
+                <Button>Click me!</Button>
+            </Wrapper>
         </div>
     )
     }
