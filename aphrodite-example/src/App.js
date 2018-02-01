@@ -5,9 +5,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <div className={css(styles.wrapper)}>
+          <section className={css(styles.wrapper)}>
         <button className={css(styles.button)}>Click me!</button>
-          </div>
+          </section>
       </div>
     );
   }
